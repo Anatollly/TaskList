@@ -1,0 +1,12 @@
+parser: babel-eslint
+
+env:
+  mocha: true
+  es6: true
+  browser: true
+
+extends: ['standard', 'standard-jsx']
+
+rules:
+  camelcase: [2, { properties: 'never' }]
+  quotes: [2, 'single']
