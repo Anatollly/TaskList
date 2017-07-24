@@ -7,7 +7,6 @@ const webpack = require('gulp-webpack');
 const del = require('del');
 const newer = require('gulp-newer');
 const watch = require('gulp-watch');
-const browserSync = require('browser-sync').create();
 const nodemon = require('gulp-nodemon');
 const changed = require('gulp-changed');
 
